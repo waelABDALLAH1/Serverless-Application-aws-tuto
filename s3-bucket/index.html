@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Future</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Serverless App</h1>
+        <p>Ce site démontre le fonctionnement d'une simple application serverless. 
+           Ci-dessous, vous trouverez le nombre de vues recherchées depuis la base de données. 
+           Entrez votre nom et cliquez sur "Envoyer".</p>
+        <div class="counter-number">Personnes ayant vu ce site : <span id="view-count">0</span></div>
+    </header>
+
+    <main>
+        <form>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" placeholder="Entrez votre nom...">
+            <button id="submit-btn" type="submit">Envoyer</button>
+        </form>
+        <p id="greeting"></p>
+    </main>
+
+    <!-- Section Copyright -->
+    <footer>
+        <p>© 2025 Wael Abdallah. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
